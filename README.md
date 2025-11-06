@@ -1,8 +1,13 @@
 # 📚 SearchBookApplication  
 **Clean Architecture + MVI Pattern 기반 도서 검색 애플리케이션**
 <br></br>
+---
 
-## 📱 앱 시연 (Demo)
+> ⚠️ **주의:** 본 프로젝트는 보안상의 이유로 `local.properties` 파일에 Kakao API Key가 포함되어 있으며, 실제 실행은 불가능합니다.  
+> 코드 구조 및 아키텍처 참고용 예제 프로젝트입니다.
+
+<br></br>
+## 📱 앱 시연
 ![첫번째 (2)](https://github.com/user-attachments/assets/50c6d5e7-d708-4f35-bc9b-790b8ad9b4c3)
 ![두번째 (2)](https://github.com/user-attachments/assets/2f6591db-68e1-457d-b867-379dd6a98691)
 ![세번째 (1)](https://github.com/user-attachments/assets/0fbf47c7-e1e4-4f92-a34d-b69f93e57d8e)
@@ -67,4 +72,8 @@ UI → Event → ViewModel → Reducer → State → UI
 | **Async** | Kotlin Coroutines, Flow | 비동기 스트림 처리 |
 | **Build** | Gradle Kotlin DSL, Version Catalog, buildSrc | 멀티모듈 버전 관리 |
 | **Language** | Kotlin | 100% Kotlin 기반 |
+
+
+
+
 
