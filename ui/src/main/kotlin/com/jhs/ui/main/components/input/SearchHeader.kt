@@ -65,7 +65,6 @@ fun SearchHeader(
             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
             keyboardActions = KeyboardActions(
                 onSearch = {
-                    Log.d("ㅈㅎㅅ", "온서치 키이벤트 들어옴")
                     onSearch(query.trim())
                     focusManager.clearFocus()
                 }

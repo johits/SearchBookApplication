@@ -14,7 +14,6 @@ class DetailReducer @Inject constructor() {
             }
 
             is DetailContract.Event.OnToggleBookmark -> {
-                Log.w("조혜수", "OnToggleBookmark:${event.item}")
                 val updatedItem = state.item.copy(isBookmarked = event.isBookmark)
                 updatedItem.let {
                     state.copy(item = it) to listOf(
